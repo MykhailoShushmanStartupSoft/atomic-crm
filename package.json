@@ -93,6 +93,7 @@
         "ghpages:deploy": "node ./scripts/ghpages-deploy.mjs",
         "supabase:remote:init": "node ./scripts/supabase-remote-init.mjs",
         "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build"
+        "build-storybook": "storybook build",
+        "deploy:vercel": "./deploy-vercel.sh"
     }
 }
